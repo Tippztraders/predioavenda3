@@ -37,7 +37,8 @@ body {
 
 /* Av. Lenine */
 .hero-top {
-  font-size: 5rem;
+  font-size: 2rem;
+  font-style: italic;
   margin-bottom: 0.5rem;
 }
 
@@ -47,8 +48,9 @@ body {
   margin: 0.5rem 0;
 }
 
+/* Oportunidade? */
 .hero-sub {
-  font-size: 1rem;
+  font-size: 5rem;
   font-style: italic;
 }
 
