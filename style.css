@@ -10,7 +10,7 @@ body {
 
 /* Hero Section with Text on Image */
 .hero {
-  background-image: url('images/building1.jpg');
+  background-image: url('HEADER.png');
   background-size: cover;
   background-position: center;
   height: 400px;
