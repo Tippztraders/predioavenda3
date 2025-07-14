@@ -103,6 +103,27 @@ body {
   margin-bottom: 0.75rem;
 }    /* END OF: This section Centers the content... */ 
 
+     /* SECOND GALLERY SETTINGS */ 
+.gallery-two {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.gallery-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-row img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}   /* END OF SECOND GALLERY SETTINGS */ 
+
 .contact a {
   color: #006400;
   text-decoration: none;
