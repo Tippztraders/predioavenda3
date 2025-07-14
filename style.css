@@ -8,11 +8,47 @@ body {
   color: #333;
 }
 
-header {
-  background-color: #006400;
+/* Hero Section with Text on Image */
+.hero {
+  background-image: url('images/building1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
-  padding: 2rem;
   text-align: center;
+  padding: 0 1rem;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-top {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.hero-sub {
+  font-size: 1rem;
+  font-style: italic;
 }
 
 .images {
