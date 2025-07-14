@@ -146,6 +146,38 @@ body {
   margin-bottom: 1rem;
 }
 
+ /* GPS */ 
+.localizacao {
+  background-color: #f9f9f9;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.localizacao h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.localizacao p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.mapa-placeholder {
+  margin-top: 1.5rem;
+  background: #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 6px;
+  font-style: italic;
+  color: #444;
+}       /* END OF: GPS */ 
+
 .contact a {
   color: #006400;
   text-decoration: none;
