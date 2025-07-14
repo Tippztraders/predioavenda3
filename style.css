@@ -276,15 +276,23 @@ body {
   border-radius: 6px;
 }
 
-.contact a {
-  color: #006400;
-  text-decoration: none;
-  font-weight: bold;
+.swiper-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: auto;
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #222;
-  color: white;
+.swiper-slide img {
+  width: 100%;
+  border-radius: 8px;
 }
+
+.swiper-pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+
