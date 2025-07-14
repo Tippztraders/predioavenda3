@@ -259,19 +259,22 @@ body {
   height: auto;
 }
 
-.swiper-slide {
+.swiper-wrapper {
   display: flex;
-  justify-content: center;
 }
 
-.swiper-slide img,
-.swiper-slide video {
+.swiper-slide {
+  flex-shrink: 0;
   width: 100%;
+  text-align: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-
 
 .contact a {
   color: #006400;
