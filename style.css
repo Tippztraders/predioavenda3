@@ -192,6 +192,33 @@ body {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* RESUMO EM PONTOS */ 
+.resumo {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resumo h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.resumo ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.resumo li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.2rem;
+}
+
 .contact a {
   color: #006400;
   text-decoration: none;
