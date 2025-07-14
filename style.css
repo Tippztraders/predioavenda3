@@ -222,7 +222,7 @@ body {
 /* COMPLETE GALLERY PICS AND VIDEOS */ 
 .galeria-completa {
   padding: 2rem 1rem;
-  background-color: #f9f9f9;
+  background-color: #808080;   /* background-color: #f9f9f9; */ 
 }
 
 .galeria-completa h2 {
