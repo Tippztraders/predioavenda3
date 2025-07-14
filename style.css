@@ -228,7 +228,7 @@ body {
 .galeria-completa h2 {
   text-align: center;
   margin-bottom: 1.5rem;
-  background-color: #FF0000;   /* background-color: #000; (black) this is original code...will change it with #FF0000 (red) Results: */
+  background-color: #FF0000;   /* background-color: #000; (black) this is original code...will change it with #FF0000 (red) Results:It changed the wording highted background */
   color: #00B140;                 /* color: #fff;  this is original code...will change with this to see #00B140 (green) Results:This is actual color for the words */
   padding: 0.5rem 1rem;
   border-radius: 4px;
