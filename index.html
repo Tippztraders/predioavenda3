@@ -5,16 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="3-Storey Building for Sale in Angola">
   <title>Building for Sale - Angola</title>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <!-- Your main CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header class="hero">
-  <div class="hero-text">
-    <p class="hero-top">Av. Lenine, Mutu-ya-Kevele</p>
-    <h1>Edifício a Venda</h1>
-    <p class="hero-sub"><em>“Oportunidade de Investimento com Potencial de Valorização com investimentos em reformas e melhorias"</em></p>
-  </div>
-</header>
+    <div class="hero-text">
+      <p class="hero-top">Av. Lenine, Mutu-ya-Kevele</p>
+      <h1>Edifício a Venda</h1>
+      <p class="hero-sub"><em>“Oportunidade de Investimento com Potencial de Valorização com investimentos em reformas e melhorias"</em></p>
+    </div>
+  </header>
+
+  <!-- ...your other page content goes here... -->
+
+  <!-- Swiper JS (must be before closing body tag) -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    const swiper1 = new Swiper('.imagem-swiper', {
+      loop: true,
+      spaceBetween: 10,
+      pagination: { el: '.swiper-pagination', clickable: true },
+    });
+
+    const swiper2 = new Swiper('.video-swiper', {
+      loop: true,
+      spaceBetween: 10,
+      pagination: { el: '.swiper-pagination', clickable: true },
+    });
+  </script>
+</body>
 
   <!-- FIRST GALLERY -->
   <section class="images">
