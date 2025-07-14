@@ -42,15 +42,16 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* EDIFICIO A VENDA */
 .hero h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin: 0.5rem 0;
 }
 
-/* Oportunidade? */
+/* OPORTUNIDADE DE INSVESTIMENTO */
 .hero-sub {
-  font-size: 2rem;
+  font-size: 1rem;
   font-style: italic;
 }
 
