@@ -222,13 +222,13 @@ body {
 /* COMPLETE GALLERY PICS AND VIDEOS */ 
 .galeria-completa {
   padding: 2rem 1rem;
-  background-color: #808080;   /* background-color: #f9f9f9; */ 
+  background-color: #f9f9f9;   /* background-color: #f9f9f9;  it changed the actual background of the body in that area */
 }
 
 .galeria-completa h2 {
   text-align: center;
   margin-bottom: 1.5rem;
-  background-color: #000;
+  background-color: #808080;   /* background-color: #000;  this is original code...will change it with #808080 */
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -241,6 +241,7 @@ body {
   justify-content: center;
 }
 
+/* COOMPLETE GALLERY PICS AND VIDEOS SWIPER FORM */
 .coluna {
   flex: 1 1 300px;
   max-width: 500px;
@@ -250,12 +251,23 @@ body {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   color: #333;
+  text-align: center;
 }
 
-.coluna img,
-.coluna video {
+.swiper {
   width: 100%;
-  margin-bottom: 1rem;
+  height: auto;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide img,
+.swiper-slide video {
+  width: 100%;
+  height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
