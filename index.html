@@ -22,11 +22,100 @@
     </div>
   </header>
 
-  <!-- Your page content and Swiper sliders go here -->
+  <!-- FIRST GALLERY -->
+  <section class="images">
+    <img src="GROUP1a.jpg" alt="Building front view">
+    <img src="GROUP1b.jpg" alt="Building interior">
+  </section>
 
-  <!-- Swiper JS (must be before closing body tag) -->
+  <!-- Descrição do Edifício -->
+  <section class="descricao">
+    <h2>Descrição do Edifício</h2>
+    <ul>
+      <li>Edifício de 4 Andares</li>
+      <li>T0 - Plano aberto (Open space), divisão feita com caxilharia</li>
+      <li>Estacionamento para 5 á 6 carros</li>
+      <li>Luz e Água com tanque de água extra</li>
+    </ul>
+  </section>
+
+  <!-- SECOND GALLERY -->
+  <section class="gallery-two">
+    <div class="gallery-row">
+      <img src="GROUP2a.jpg" alt="Vista Lateral do Edifício">
+      <img src="GROUP2b.jpg" alt="Vista Interna do Edifício">
+    </div>
+  </section>
+
+  <!-- Condição do Edifício -->
+  <section class="condicao">
+    <h2>Condição do Edifício</h2>
+    <p>O edifício precisa de uns retoques para melhorar o visual exterior e interior. Está a ser <strong>vendido como está</strong> (Sold as is).</p>
+    <p>Caso deseje realizar reformas, há grande potencial de valorização com melhorias estéticas e funcionais.</p>
+  </section>
+
+  <!-- MAP - IMAGE -->
+  <section class="mapa-imagem">
+    <img src="GPS.png" alt="Mapa da Localização do Edifício">
+  </section>
+
+  <!-- LOCALIZAÇÃO -->
+  <section class="localizacao">
+    <h2>Localização do Edifício</h2>
+    <p>Localizado em frente do Largo do Mutu (Salvador Correia), Av. Lenine, ao descer à sua direita.</p>
+    <p>O espaço total abrange <strong>1058 metros quadrados (1058m²)</strong>.</p>
+    <p>Em frente tem um parque em reabilitação para a construção de um parque de estacionamento moderno.</p>
+    <div class="mapa-placeholder">
+      <p><em>[https://maps.app.goo.gl/makx27rvYZFwfXUG8]</em></p>
+    </div>
+  </section>
+
+  <!-- RESUMO EM PONTOS -->
+  <section class="resumo">
+    <h2>Resumo</h2>
+    <ul>
+      <li>🏢 Edifício de 4 Andares</li>
+      <li>💡 Luz e Água</li>
+      <li>🚗 Estacionamento para 5 á 6 carros</li>
+      <li>🧱 Condição: Necessita atenção (potencial de valorização)</li>
+      <li>📍 Localização: Av. Lenine, frente ao Mutu</li>
+    </ul>
+  </section>
+
+  <!-- COMPLETE GALLERY PICS AND VIDEOS -->
+  <section class="galeria-completa">
+    <h2>Galeria Completa</h2>
+    <div class="galeria-grid">
+
+      <!-- SLIDER FOR: COMPLETE GALLERY PICS -->
+      <div class="coluna">
+        <h3>Imagens</h3>
+        <div class="swiper imagem-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="FG (1).jpg" alt="Imagem 1"></div>
+            <div class="swiper-slide"><img src="FG (2).jpg" alt="Imagem 2"></div>
+            <div class="swiper-slide"><img src="FG (3).jpg" alt="Imagem 3"></div>
+            <div class="swiper-slide"><img src="FG (4).jpg" alt="Imagem 4"></div>
+            <div class="swiper-slide"><img src="FG (5).jpg" alt="Imagem 5"></div>
+            <div class="swiper-slide"><img src="FG (6).jpg" alt="Imagem 6"></div>
+            <div class="swiper-slide"><img src="FG (7).jpg" alt="Imagem 7"></div>
+            <div class="swiper-slide"><img src="FG (8).jpg" alt="Imagem 8"></div>
+            <div class="swiper-slide"><img src="FG (9).jpg" alt="Imagem 9"></div>
+            <div class="swiper-slide"><img src="FG (10).jpg" alt="Imagem 10"></div>
+            <div class="swiper-slide"><img src="FG (11).jpg" alt="Imagem 11"></div>
+            <div class="swiper-slide"><img src="FG (12).jpg" alt="Imagem 12"></div>
+            <div class="swiper-slide"><img src="FG (13).jpg" alt="Imagem 13"></div>
+          </div>
+          <!-- Pagination element (required for bullets) -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
   <script>
     const swiper1 = new Swiper('.imagem-swiper', {
       loop: true,
@@ -46,104 +135,5 @@
       }
     });
   </script>
-</body>
-
-  <!-- FIRST GALLERY -->
-  <section class="images">
-    <img src="GROUP1a.jpg" alt="Building front view">
-    <img src="GROUP1b.jpg" alt="Building interior">
-  </section>
-
- <!-- Descrição do Edifício --> 
-  <section class="descricao">
-  <h2>Descrição do Edifício</h2>
-  <ul>
-    <li>Edifício de 4 Andares</li>
-    <li>T0 - Plano aberto (Open space), divisão feita com caxilharia</li>
-    <li>Estacionamento para 5 á 6 carros</li>
-    <li>Luz e Água com tanque de água extra</li>
-  </ul>
-</section>
-
-  <!-- SECOND GALLERY -->
-<section class="gallery-two">
-  <div class="gallery-row">
-    <!-- Imagem 1: Fachada lateral ou vista interna -->
-    <img src="GROUP2a.jpg" alt="Vista Lateral do Edifício">
-    
-    <!-- Imagem 2: Outra perspectiva ou área interna -->
-    <img src="GROUP2b.jpg" alt="Vista Interna do Edifício">
-  </div>
-</section>
-
-<!-- Condição do Edifício -->
-<section class="condicao">
-  <h2>Condição do Edifício</h2>
-  <p>O edifício precisa de uns retoques para melhorar o visual exterior e interior. Está a ser <strong>vendido como está</strong> (Sold as is).</p>
-  
-  <!-- Espaço para mais detalhes (opcional) -->
-  <p>Caso deseje realizar reformas, há grande potencial de valorização com melhorias estéticas e funcionais.</p>
-</section>
-
-  <!-- MAP - IMAGE -->
-<section class="mapa-imagem">
-  <img src="GPS.png" alt="Mapa da Localização do Edifício">
-</section>
-
-<!-- LOCALIZAÇÃO -->
-<section class="localizacao">
-  <h2>Localização do Edifício</h2>
-  <p>Localizado em frente do Largo do Mutu (Salvador Correia), Av. Lenine, ao descer à sua direita.</p>
-  <p>O espaço total abrange <strong>1058 metros quadrados (1058m²)</strong>.</p>
-  <p>Em frente tem um parque em reabilitação para a construção de um parque de estacionamento moderno.</p>
-
-  <!-- Espaço para Mapa ou Coordenadas -->
-  <div class="mapa-placeholder">
-    <p><em>[https://maps.app.goo.gl/makx27rvYZFwfXUG8]</em></p>
-  </div>
-</section>
-
-  <!-- RESUMO EM PONTOS -->
-<section class="resumo">
-  <h2>Resumo</h2>
-  <ul>
-    <li>🏢 Edifício de 4 Andares</li>
-    <li>💡 Luz e Água</li>
-    <li>🚗 Estacionamento para 5 á 6 carros</li>
-    <li>🧱 Condição: Necessita atenção (potencial de valorização)</li>
-    <li>📍 Localização: Av. Lenine, frente ao Mutu</li>
-  </ul>
-</section>
-
-  <!-- COMPLETE GALLERY PICS AND VIDEOS -->
-<section class="galeria-completa">
-  <h2>Galeria Completa</h2>
-  <div class="galeria-grid">
-
-    <!-- SLIDER FOR: COMPLETE GALLERY PICS -->
-    <div class="coluna">
-      <h3>Imagens</h3>
-      <div class="swiper imagem-swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="FG (1).jpg" alt="Imagem 1"></div>
-          <div class="swiper-slide"><img src="FG (2).jpg" alt="Imagem 2"></div>
-          <div class="swiper-slide"><img src="FG (3).jpg" alt="Imagem 3"></div>
-          <div class="swiper-slide"><img src="FG (4).jpg" alt="Imagem 4"></div>
-          <div class="swiper-slide"><img src="FG (5).jpg" alt="Imagem 5"></div>
-          <div class="swiper-slide"><img src="FG (6).jpg" alt="Imagem 6"></div>
-          <div class="swiper-slide"><img src="FG (7).jpg" alt="Imagem 7"></div>
-          <div class="swiper-slide"><img src="FG (8).jpg" alt="Imagem 8"></div>
-          <div class="swiper-slide"><img src="FG (9).jpg" alt="Imagem 9"></div>
-          <div class="swiper-slide"><img src="FG (10).jpg" alt="Imagem 10"></div>
-          <div class="swiper-slide"><img src="FG (11).jpg" alt="Imagem 11"></div>
-          <div class="swiper-slide"><img src="FG (12).jpg" alt="Imagem 12"></div>
-          <div class="swiper-slide"><img src="FG (13).jpg" alt="Imagem 13"></div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
 </body>
 </html>
