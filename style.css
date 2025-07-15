@@ -314,4 +314,11 @@ body {
   justify-content: center;
 }
 
+/* This code allow to centere preco, cta adn coluna */ 
+.preco, .cta-final, .coluna {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+}
 
