@@ -335,3 +335,22 @@ body {
   color: #333;
 }
 
+/* Style for CTA */
+.cta-final {
+  background-color: #222;
+  color: #fff;
+  padding: 2em 1em;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.cta-final h2 {
+  margin-bottom: 0.5em;
+}
+
+.cta-final p {
+  font-size: 1.1em;
+}
+
