@@ -359,3 +359,33 @@ body {
   font-size: 1.1em;
 }
 
+/* Style for BONUS */
+.bonus-info,
+.links-uteis {
+  text-align: center;
+  padding: 2em 1em;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.bonus-info h2,
+.links-uteis h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Style for LINKS */
+.links-inline {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.links-inline a {
+  color: #0066cc;
+  text-decoration: none;
+  margin: 0 0.4em;
+}
+
+.links-inline a:hover {
+  text-decoration: underline;
+}
