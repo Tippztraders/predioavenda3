@@ -254,6 +254,7 @@ body {
   text-align: center;
 }
 
+/* SWIPING CONFIG FOR PICS GALLERY */ 
 .swiper {
   width: 100%;
   height: auto;
@@ -267,13 +268,20 @@ body {
   flex-shrink: 0;
   width: 100%;
   text-align: center;
+  display: flex;
+  align-items: flex-end; /* Align image to bottom */
+  justify-content: center;
+  height: 100%;
 }
 
 .swiper-slide img {
   width: 100%;
   max-width: 100%;
   height: auto;
-  border-radius: 6px;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+  max-height: 400px; /* Keeps consistent height look */
 }
 
 .swiper-card {
@@ -286,21 +294,12 @@ body {
   margin: auto;
 }
 
-.swiper-slide img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 8px;
-  object-fit: cover;
-  max-height: 400px; /* Optional: cap height for consistent look */
-}
-
 .swiper-pagination {
   margin-top: 10px;
   text-align: center;
 }
 
-/* Card for videos */
+/* SWIPING CONFIG FOR VIDEO GALLERY */ 
 .swiper-slide video {
   width: 100%;
   border-radius: 8px;
