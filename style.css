@@ -314,11 +314,24 @@ body {
   justify-content: center;
 }
 
-/* This code allow to centere preco, cta adn coluna */ 
-.preco, .cta-final, .coluna {
+/* Style for PRICE */ 
+.preco {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 2em 1em;
   max-width: 800px;
-  margin: 0 auto;
-  padding: 1em;
+  margin: 2em auto;
   text-align: center;
+}
+
+.preco h2 {
+  color: #111;
+  margin-bottom: 0.5em;
+}
+
+.preco p {
+  font-size: 1.1em;
+  color: #333;
 }
 
