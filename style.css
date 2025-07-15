@@ -288,7 +288,11 @@ body {
 
 .swiper-slide img {
   width: 100%;
+  height: auto;
+  display: block;
   border-radius: 8px;
+  object-fit: cover;
+  max-height: 400px; /* Optional: cap height for consistent look */
 }
 
 .swiper-pagination {
