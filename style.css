@@ -294,7 +294,7 @@ body {
   margin: auto;
 }
 
-.swiper-pagination {
+.swiper-pagination {                                  
   margin-top: 10px;
   text-align: center;
 }
@@ -304,5 +304,6 @@ body {
   width: 100%;
   border-radius: 8px;
   max-height: 400px;
+  display: block;
 }
 
