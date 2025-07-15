@@ -296,27 +296,3 @@ body {
   text-align: center;
 }
 
-/* Card style for videos */
-<div class="coluna">
-  <h3>Vídeos</h3>
-  <div class="swiper-card"> <!-- Same card style reused -->
-    <div class="swiper video-swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <video controls>
-            <source src="video1.mp4" type="video/mp4">
-            Seu navegador não suporta vídeos.
-          </video>
-        </div>
-        <div class="swiper-slide">
-          <video controls>
-            <source src="video2.mp4" type="video/mp4">
-            Seu navegador não suporta vídeos.
-          </video>
-        </div>
-        <!-- Add more video slides as needed -->
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-</div>
