@@ -1,100 +1,409 @@
-/* General Reset */
-body, h1, h2, p, ul {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* style.css */
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   line-height: 1.6;
+  background-color: #f7f7f7;
   color: #333;
-  background: #fff;
 }
 
-/* Unified container for all content */
-.site-container {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  text-align: center;
-}
-
+/* Hero Section with Text on Image */
 .hero {
-  background: #dcefff;
-  padding: 2rem 1rem;
-}
-.hero-top {
-  font-weight: bold;
-  color: #555;
-}
-.hero h1 {
-  font-size: 2rem;
-  margin-top: 0.5rem;
-  color: #003366;
-}
-.hero-sub {
-  font-style: italic;
-  margin-top: 0.5rem;
-  color: #333;
+  background-image: url('HEADER2_1.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 0 1rem;
 }
 
-.preco {
-  background: #f9f9d1;
-  padding: 2rem 1rem;
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
-.preco h2 {
-  color: #444;
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+}
+
+/* AV. LENINE, MUTU YA KEVELE */
+.hero-top {
+  font-size: 1.5rem;
+  font-style: italic;
   margin-bottom: 0.5rem;
 }
 
+/* EDIFICIO A VENDA */
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+/* OPORTUNIDADE DE INSVESTIMENTO */
+.hero-sub {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 1rem;
+  background: white;
+}
+
+.images img {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.description {
+  background: #fff;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
 .descricao {
-  background: #f0f0f0;
   padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.condicao {
-  background: #e1f7e7;
-  padding: 2rem 1rem;
-}
-
-.localizacao {
-  background: #e0ecf7;
-  padding: 2rem 1rem;
-}
-
-.resumo {
-  background: #fdf4e3;
-  padding: 2rem 1rem;
-  text-align: left;
-}
-.resumo h2 {
+/* This section Centers the content, Uses a clear bullet list format, Keeps the text responsive and clean. */
+.descricao h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
   text-align: center;
+  color: #000;
+}
+
+.descricao ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.descricao li {
+  margin-bottom: 0.75rem;
+}    /* END OF: This section Centers the content... */ 
+
+     /* SECOND GALLERY SETTINGS */ 
+.gallery-two {
+  padding: 2rem 1rem;
+  background-color: #fff;
+}
+
+.gallery-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-row img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}   /* END OF SECOND GALLERY SETTINGS */ 
+
+  /* STRUCTURE FOR Condição do Edifício */ 
+.condicao {
+  background-color: #f9f9f9;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.condicao h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.condicao p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
   margin-bottom: 1rem;
 }
 
-.galeria {
-  background: #fff;
+ /* GPS */ 
+.localizacao {
+  background-color: #f9f9f9;
   padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.bonus-info {
-  background: #d8f0ff;
-  padding: 2rem 1rem;
+.localizacao h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000;
 }
 
-.site-footer {
-  background: #444;
+.localizacao p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.mapa-placeholder {
+  margin-top: 1.5rem;
+  background: #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 6px;
+  font-style: italic;
+  color: #444;
+}       /* END OF: GPS */ 
+
+ /* THIS IS FOR THE IMAGE OF THE GPS IMAGE */ 
+.mapa-imagem {
+  padding: 2rem 1rem 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.mapa-imagem img {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* RESUMO EM PONTOS */ 
+.resumo {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resumo h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.resumo ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.resumo li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.2rem;
+}
+
+/* COMPLETE GALLERY PICS AND VIDEOS */          /* red #FF0000; blue #0000FF; yellow #FFFF00; magenta #FF00FF; pink #FFC0CB */ 
+.galeria-completa {
+  padding: 2rem 1rem;
+  background-color: #f7f7f7;   /* background-color: #f9f9f9; Ghost White, it changed the actual background of the body in that area */
+}
+
+.galeria-completa h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  background-color: #f9f9f9;   /* background-color: #000; (black) original code...will change it with #FF0000 (red) Results:It changed the wording highted background,now I changed it to #f9f9f9 ghost white */
+  color: #00B140;        /* color: #fff;  original code...will change with this to #00B140 (green) Results:This is actual color for the words */
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.galeria-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* COOMPLETE GALLERY PICS AND VIDEOS SWIPER FORM */
+.coluna {
+  flex: 1 1 300px;
+  max-width: 800px;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.coluna h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+}
+
+/* SWIPING CONFIG FOR PICS GALLERY */ 
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: flex-end; /* Align image to bottom */
+  justify-content: center;
+  height: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+  max-height: 400px; /* Keeps consistent height look */
+}
+
+.swiper-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: auto;
+  height: 400px; /* or any suitable value */
+  display: flex;
+  align-items: flex-end;
+}
+
+.swiper-pagination {                                  
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* SWIPING CONFIG FOR VIDEO GALLERY */ 
+.swiper-slide video {
+  width: 100%;
+  border-radius: 8px;
+  max-height: 400px;
+  display: block;
+}
+
+/* This code allow the short pics in the gallery to be placed at the bottom */ 
+.swiper-slide {
+  display: flex;
+  align-items: flex-end; /* 👈 This aligns image to the bottom */
+  justify-content: center;
+}
+
+/* Style for PRICE */ 
+.preco {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 2em 1em;
+  max-width: 800px;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.preco h2 {
+  color: #111;
+  margin-bottom: 0.5em;
+}
+
+.preco p {
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Style for CTA */
+.cta-final {
+  background-color: #222;
   color: #fff;
-  padding: 2rem 1rem;
-  font-size: 0.9rem;
-}
-.site-footer .legal {
-  font-size: 0.75rem;
-  margin-top: 1rem;
-  color: #ccc;
+  padding: 2em 1em;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 2em auto;
+  text-align: center;
 }
 
-/* Swiper pagination */
-.swiper-pagination {
-  margin-top: 1rem;
+.cta-final h2 {
+  margin-bottom: 0.5em;
+}
+
+.cta-final p {
+  font-size: 1.1em;
+}
+
+/* Style for BONUS */
+.bonus-info,
+.links-uteis {
+  text-align: center;
+  padding: 2em 1em;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.bonus-info h2,
+.links-uteis h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Style for LINKS */
+.links-inline {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.links-inline a {
+  color: #0066cc;
+  text-decoration: none;
+  margin: 0 0.4em;
+}
+
+.links-inline a:hover {
+  text-decoration: underline;
+}
+
+
+/* FOOTER SETUP */
+.site-footer {
+  background-color: #e0e0e0; /* light grey */
+  color: #000; /* black text */
+  text-align: center;
+  padding: 2em 1em;
+  font-size: 0.95em;
+  margin-top: 2em;
+  line-height: 1.6;
+}
+
+.site-footer .legal {
+  font-size: 0.85em;
+  color: #333;
+  margin-top: 1em;
 }
