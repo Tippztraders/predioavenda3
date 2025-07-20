@@ -222,7 +222,7 @@ body {
 /* COMPLETE GALLERY PICS AND VIDEOS */          /* red #FF0000; blue #0000FF; yellow #FFFF00; magenta #FF00FF; pink #FFC0CB */ 
 .galeria-completa {
   padding: 2rem 1rem;
-  background-color: #FFFF00;   /* background-color: #f9f9f9; Ghost White, it changed the actual background of the body in that area */
+  background-color: #d5d8e0;   /* background-color: #f9f9f9; Ghost White, it changed the actual background of the body in that area */
 }
 
 .galeria-completa h2 {
